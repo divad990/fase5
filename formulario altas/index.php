@@ -14,10 +14,10 @@
             <section id="hs2">
                 <div class="hsd2"><nav id="menu">
                     <ul>
-                    <li><a href="">Inicio</a></li>
+                    <li><a href="../index.html">Inicio</a></li>
                     <li id="activo"><a href="">Formulario</a>
-                    <li><a href="">Empleados</a></li>
-                    <li><a href="">Clientes</a></li>
+                    <li><a href="../paginas adicionales/empleados.html">Empleados</a></li>
+                    <li><a href="../paginas adicionales/clientes.html">Clientes</a></li>
                 </ul></nav></div>
             </section>
         </header>
