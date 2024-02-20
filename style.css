@@ -1,19 +1,21 @@
 * {
     padding: 0px;
-    margin: 5px;
+    margin: 0px;
 }
 
 header {
     width: 100%;
-    height: 75px;
+    height: 50px;
     background-color: rgb(19, 28, 58);
     color: white;
 }
 
+/*  h = header, s = section, d = div  */
+
 #hs1 {
     margin: 0px;
-    padding: 2px;
-    width: 49%;
+    padding: 0px;
+    width: 50%;
     height: 100%;
     position: relative;
     float: left;
@@ -21,9 +23,27 @@ header {
 
 #hs2 {
     margin: 0px;
-    padding: 2px;
-    width: 49%;
+    padding: 0px;
+    width: 50%;
     height: 100%;
     position: relative;
     float: right;
 }
+
+header section div {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: 40px;
+}
+
+.hsd1 {
+    justify-content: left;
+    margin-left: 10px;
+}
+
+.hsd2 {
+    justify-content: right;
+    margin-right: 10px;
+}
+
