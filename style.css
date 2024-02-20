@@ -93,15 +93,16 @@ header section div {
     position: absolute;
     margin-left: 0;
 }
-
-#menu ul li.activo a::after {
+/* linea distintiva
+ #menu ul li.activo a::after {
     content: '';
     display: block;
     border-bottom: 3px solid white;
     margin: 0 auto;
     margin-top: 1px;
-    width: 50%; /* Longitud de la línea */
+    width: 50%;
 }
+*/
 
 #menu ul li.activo a {
     font-weight: bold;
