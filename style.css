@@ -8,6 +8,7 @@ header {
     height: 50px;
     background-color: rgb(19, 28, 58);
     color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 /*  h = header, s = section, d = div  */
@@ -47,3 +48,41 @@ header section div {
     margin-right: 10px;
 }
 
+/* ---------- MENU ---------- */
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+    text-align: center;
+}
+
+#menu ul li a {
+    display: block;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Verdana;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px 10px;
+
+}
+
+#menu ul li {
+    float: left;
+  /*  background-color: #0FA5F9; */
+    position: relative;
+}
+
+#menu ul li:hover {
+    background-color: rgb(39, 56, 112);
+    border-radius: 8px;
+}
+
+#menu ul ul {
+    display: none;
+    position: absolute;
+    margin-left: 0;
+}
