@@ -18,7 +18,7 @@
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../formulario altas/index.html">Formulario</a>
                 <li class="activo"><a>Empleados</a></li>
-                <li><a href="./clientes.html">Clientes</a></li>
+                <li><a href="../paginas adicionales/">Clientes</a></li>
             </ul></nav></div>
         </section>
     </header>
