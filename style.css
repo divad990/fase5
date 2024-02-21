@@ -112,7 +112,7 @@ header section div {
     position: absolute;
     margin-left: 0;
 }
-/* linea distintiva
+
  #menu ul li.activo a::after {
     content: '';
     display: block;
@@ -121,7 +121,7 @@ header section div {
     margin-top: 1px;
     width: 50%;
 }
-*/
+
 
 #menu ul li.activo a {
     font-weight: bold;
