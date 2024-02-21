@@ -1,4 +1,29 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Ruinasa S.A.</title>
+</head>
+<body>
+
+    <header>
+        <section id="hs1">
+            <div class="hsd1"><img src="../img/1.jpg">RUINASA S.A.</div>
+        </section>
+        <section id="hs2">
+            <div class="hsd2"><nav id="menu">
+                <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../formulario altas/index.html">Formulario</a>
+                <li class="activo"><a>Empleados</a></li>
+                <li><a href="./clientes.html">Clientes</a></li>
+            </ul></nav></div>
+        </section>
+    </header>
+
+	<?php
 
 function mostrar_datos(){
 	//Incluímos las funciones definidas en el otro archivo de php
@@ -49,3 +74,10 @@ function mostrar_datos(){
 //Probamos la función
 mostrar_datos();
 ?>
+    
+    <section id="s2">
+        
+    </section>
+    <footer>© David y Alain 2024</footer>
+</body>
+</html>

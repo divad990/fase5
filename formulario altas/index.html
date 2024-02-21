@@ -24,9 +24,15 @@
     </header>
 
     
-    <section id="s2">
-        <article>Anuncios, article 1</article>
-        <article>Noticias, article 2</article>
+    <section>
+        <form method="post" action="insertar_datos.php">
+            Nombre: <input type="text" name="nombre" placeholder="Tu nombre"><br>
+            Apellido: <input type="text" name="apellido" placeholder="Tu apellido"><br>
+            DNI: <input type="text" name="dni" placeholder="Tu dni"><br>
+            Email: <input type="email" name="email" placeholder="Tu email"><br>
+            Departamento: <input type="text" name="departamento" placeholder="Tu departamento"><br>
+            <button type="submit">Enviar</button>
+        </form>
     </section>
     <footer>© David y Alain 2024</footer>
 </body>
