@@ -63,9 +63,6 @@ function mostrar_datos(){
 	
 	// Cerramos conexión
 	cerrar_conexion($enlace);
-	
-	echo '<br><hr><br>';
-	echo '<a href="https://localhost/aw/bbdd"> Volver atrás </a>';
 }
 
 ?>

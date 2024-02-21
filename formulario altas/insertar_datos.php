@@ -18,6 +18,9 @@ $sql = "INSERT INTO prueba1 (Nombre, Apellido, DNI, Email, Departamento) VALUES
 ";
 if(mysqli_query($enlace, $sql)){
     echo 'Insertado correctamente.';
+?>
+    <a href="../index.html"> Volver atras </a>    
+<?php
 } else{
     echo "Error al insertar datos con la consulta: $sql. " . mysqli_error($enlace);
 }
