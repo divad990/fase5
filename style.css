@@ -101,6 +101,8 @@ header section div {
 .sad1 {
     margin-left: 72px;
     margin-right: 72px;
+    display: flex;
+    flex-direction: column;
 }
 
 #noticias {
@@ -109,8 +111,15 @@ header section div {
 }
 
 section article div img {
-    width: 600px;
-    height: 350px;
+    width: 700px;
+    height: 425px;
+    align-self: center;
+}
+
+.desarrollo {
+    width: 700px;
+    height: 425px;
+    align-self: center;
 }
 
 .vl {
@@ -126,6 +135,7 @@ section article div img {
     width: 600px;
     text-align: center;
     font-size: 20px;
+    align-self: center;
 }
 
 /* ---------- MENU ---------- */
