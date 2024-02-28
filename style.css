@@ -191,3 +191,79 @@ section article div img {
 }
 
 /* ---------- FIN MENU ---------- */
+
+/* ---------- FORMULARIO ---------- */
+/*
+.tform {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+form {
+    display: flex;
+}
+
+.d2 {
+    align-self: right;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    width: 390px;
+}
+*/
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .contenido {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .titulo {
+    text-align: center;
+    color: #3498db;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cliente {
+    margin-bottom: 20px;
+  }
+  
+  .nombre-empresa {
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .detalle {
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para los enlaces */
+  .enlace {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .enlace:hover {
+    color: #2980b9;
+  }

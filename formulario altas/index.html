@@ -25,14 +25,20 @@
 
     
     <section>
-        <form method="post" action="insertar_datos.php">
-            Nombre: <input type="text" name="nombre" placeholder="Tu nombre"><br>
-            Apellido: <input type="text" name="apellido" placeholder="Tu apellido"><br>
-            DNI: <input type="text" name="dni" placeholder="Tu dni"><br>
-            Email: <input type="email" name="email" placeholder="Tu email"><br>
-            Departamento: <input type="text" name="departamento" placeholder="Tu departamento"><br>
-            <button type="submit">Enviar</button>
-        </form>
+        <div class="tform">
+            <h1>REGISTRO DE EMPLEADOS</h1>
+        
+            <div class="contenido">
+                <form method="post" action="insertar_datos.php">
+                    <div class="d1">Nombre <br><input type="text" name="nombre" placeholder="Tu nombre"></div>
+                    <div class="d2">Apellido <br><input type="text" name="apellido" placeholder="Tu apellido"><br></div>
+                    <div class="d3">DNI <br><input type="text" name="dni" placeholder="Tu dni"><br></div>
+                    <div class="d4">Email <br><input type="email" name="email" placeholder="Tu email"><br></div>
+                    <div class="d5">Departamento <br><input type="text" name="departamento" placeholder="Tu departamento"><br></div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
     </section>
     <footer>© David y Alain 2024</footer>
 </body>
